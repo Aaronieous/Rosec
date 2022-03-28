@@ -1,0 +1,6 @@
+[submodule "Rosec/vendor/spdlog"]
+	path = Rosec/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Rosec/vendor/GLFW"]
+	path = Rosec/vendor/GLFW
+	url = https://github.com/glfw/glfw.git
