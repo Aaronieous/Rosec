@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GLFW">
+      <UniqueIdentifier>{154B857C-0182-860D-AA6E-6C109684020F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLFW\include">
+      <UniqueIdentifier>{88B7622F-741A-F2D3-1DA0-2A8A09E2BD56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLFW\include\GLFW">
+      <UniqueIdentifier>{C767653D-337E-63D3-7CF5-EEF4E84A345B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLFW\src">
+      <UniqueIdentifier>{AC8BCA85-9858-2591-C171-1339AD9D5A1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\KHR">
+      <UniqueIdentifier>{7D5AC031-E90F-3927-7204-33FEDEB82F2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\glad">
+      <UniqueIdentifier>{30A0DB69-1C03-6B0E-C588-A3C4B1CA3691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\GLFW\include\GLFW\glfw3.h">
+      <Filter>GLFW\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLFW\include\GLFW\glfw3native.h">
+      <Filter>GLFW\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLFW\src\glfw_config.h">
+      <Filter>GLFW\src</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KHR\khrp.h">
+      <Filter>include\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glad\glad.h">
+      <Filter>include\glad</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\GLFW\src\context.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\egl_context.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\init.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\input.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\monitor.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\null_init.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\null_joystick.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\null_monitor.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\null_window.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\osmesa_context.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\platform.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\vulkan.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\wgl_context.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\win32_init.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\win32_joystick.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\win32_module.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\win32_monitor.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\win32_thread.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\win32_time.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\win32_window.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLFW\src\window.c">
+      <Filter>GLFW\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

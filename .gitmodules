@@ -4,3 +4,9 @@
 [submodule "Rosec/vendor/GLFW"]
 	path = Rosec/vendor/GLFW
 	url = https://github.com/glfw/glfw.git
+[submodule "Rosec/vendor/imgui"]
+	path = Rosec/vendor/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "Rosec/vendor/glm"]
+	path = Rosec/vendor/glm
+	url = https://github.com/g-truc/glm.git

@@ -1,0 +1,24 @@
+﻿  ImGuiLayer.cpp
+C:\dev\Rosec\Rosec\src\Rosec\Layer.h(21,15): warning C4251: 'Rosec::Layer::m_DebugName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Rosec::Layer'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\dev\Rosec\Rosec\src\Rosec\LayerStack.h(22,23): warning C4251: 'Rosec::LayerStack::m_Layers': class 'std::vector<Rosec::Layer *,std::allocator<Rosec::Layer *>>' needs to have dll-interface to be used by clients of class 'Rosec::LayerStack'
+C:\dev\Rosec\Rosec\src\Rosec\LayerStack.h(18): message : see declaration of 'std::vector<Rosec::Layer *,std::allocator<Rosec::Layer *>>'
+C:\dev\Rosec\Rosec\src\Rosec\LayerStack.h(23,33): warning C4251: 'Rosec::LayerStack::m_LayerInsert': class 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' needs to have dll-interface to be used by clients of class 'Rosec::LayerStack'
+          with
+          [
+              _Ty=Rosec::Layer *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(470): message : see declaration of 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>'
+          with
+          [
+              _Ty=Rosec::Layer *
+          ]
+C:\dev\Rosec\Rosec\src\Rosec\Application.h(34,26): warning C4251: 'Rosec::Application::m_Window': class 'std::unique_ptr<Rosec::Window,std::default_delete<Rosec::Window>>' needs to have dll-interface to be used by clients of class 'Rosec::Application'
+C:\dev\Rosec\Rosec\src\Rosec\Application.h(34): message : see declaration of 'std::unique_ptr<Rosec::Window,std::default_delete<Rosec::Window>>'
+C:\dev\Rosec\Rosec\src\Rosec\ImGui\ImGuiLayer.cpp(63,80): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\dev\Rosec\Rosec\src\Rosec\ImGui\ImGuiLayer.cpp(63,51): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\dev\Rosec\Rosec\src\Rosec\ImGui\ImGuiLayer.cpp(158,52): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\dev\Rosec\Rosec\src\Rosec\ImGui\ImGuiLayer.cpp(158,37): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     Creating library ..\bin\Debug-windows-x86_64\Rosec\Rosec.lib and object ..\bin\Debug-windows-x86_64\Rosec\Rosec.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Rosec.vcxproj -> C:\dev\Rosec\bin\Debug-windows-x86_64\Rosec\Rosec.dll
